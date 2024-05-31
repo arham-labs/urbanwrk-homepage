@@ -54,13 +54,14 @@ export default function FormCard() {
     <div className="bg-white ">
       <div className=" px-6 max-w-[1920px] py-20 max-lg:py-16  mx-auto 2xl:px-[160px] lg:px-[100px]">
         <div className="flex flex-col lg:flex-row  md:gap-14 lg:gap-16  xl:gap-24 2xl:gap-32 ">
-          <div className="  lg:w-[640px] 2xl:w-[680px] lg:h-[650px] xl:h-[750px]  max-lg:w-full   order-1 sm:order-1">
+          <div className="  lg:w-[640px] 2xl:w-[680px] lg:h-[620px] xl:h-[700px]  max-lg:w-full   order-1 sm:order-1">
             <Image
-              src="/images/home/form.png"
-              height={800}
-              width={604}
+              src="/images/home/form2.png"
+              height={900}
+              width={900}
               alt="formImage"
-              className="h-full w-full object-center"
+              className="h-full w-full !object-center"
+              unoptimized
             />
           </div>
           <div className=" flex flex-col   order-1 sm:order-2 max-lg:pt-[48px] justify-center ">
