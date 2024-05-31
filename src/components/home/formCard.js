@@ -75,7 +75,7 @@ export default function FormCard() {
             </p>
             <form
               onSubmit={handleSubmit(onSubmit)}
-              className="flex flex-col md:w-full"
+              className="flex flex-col  md:w-full lg:w-[400px] xl:w-[462px]"
             >
               <Controller
                 name="name"
