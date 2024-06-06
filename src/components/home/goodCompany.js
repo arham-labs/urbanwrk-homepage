@@ -22,15 +22,16 @@ export default function GoodCompany() {
 
 
             setCurrentIndex(prevIndex => generateRandomIndex());
-        }, 2000);
+        }, 3000);
 
         return () => clearInterval(interval);
     }, []);
 
     useEffect(() => {
         const intterval2 = setInterval(() => {
+            console.log("Asd")
             SetOn((prev) => !prev)
-        }, 1000)
+        }, 3000)
 
         return () => clearInterval(intterval2);
     }, [SetOn])
