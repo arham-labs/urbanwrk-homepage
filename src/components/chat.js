@@ -75,7 +75,7 @@ export default function Chat() {
             <div className="flex flex-col order-1 sm:order-2  justify-center bg-white p-6 custom-shadow-top shadow-lg ">
               <p className="pb-2 text-[20px]">
                 Fill in the details below or call us at{" "}
-                <span className="font-semibold ">+91 98765 43210</span>
+            <Link href="tel:+91 8399959996"  className="font-semibold ">+91 8399959996</Link>
               </p>
               <form
               onSubmit={handleSubmit(onSubmit)}
