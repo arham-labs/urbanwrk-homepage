@@ -29,7 +29,7 @@ export default function GoodCompany() {
 
     useEffect(() => {
         const intterval2 = setInterval(() => {
-            console.log("Asd")
+            // console.log("Asd")
             SetOn((prev) => !prev)
         }, 3000)
 
